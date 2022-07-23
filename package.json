@@ -1,11 +1,10 @@
 {
-  "name": "Blog-app",
+  "name": "markdown-blog",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "devStart": "nodemon server.js"
+    "devStart": "nodemon server.js",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
@@ -14,13 +13,14 @@
     "dompurify": "^2.3.10",
     "ejs": "^3.1.8",
     "express": "^4.18.1",
-    "jsdom": "^20.0.0",
-    "marked": "^4.0.18",
+    "jsdom": "^16.7.0",
+    "marked": "^0.8.2",
     "method-override": "^3.0.0",
-    "mongoose": "^6.4.6",
+    "mongoose": "^5.13.14",
     "slugify": "^1.6.5"
   },
   "devDependencies": {
     "nodemon": "^2.0.19"
-  }
+  },
+  "description": ""
 }
